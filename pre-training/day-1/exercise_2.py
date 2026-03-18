@@ -16,9 +16,8 @@ def grade_classifier(score):
 
 scores = [45, 72, 91, 60, 38, 85]
 
-print(f"{'Score':>6}  {'Result'}")
+print(f"{'Score':>6}  {'Result'}") # reserves 6 spaces and pushes the text to the right
 print("-" * 20)
 
 for score in scores:
     result = grade_classifier(score)
-    print(f"{score:>6}  {result}")
